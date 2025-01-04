@@ -1,9 +1,9 @@
-import Header from "@/app/components/header";
+import Image from "next/image";
 
 export default function Portfolio(){
     return(
         <div>
-            <img src="/portfolio.jpg" alt="img" className="portfolio-pic"/>
+            <Image src="/portfolio.jpg" alt="img" className="portfolio-pic" width={660} height={926}/>
         </div>
     )
 }
