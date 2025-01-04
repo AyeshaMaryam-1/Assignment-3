@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Contact(){
     return(
         <div className="contact">
@@ -15,17 +13,17 @@ export default function Contact(){
                 <form action="">
                     <label htmlFor="name">Full Name</label>
                     <br />
-                    <input type="text" placeholder="Enter your Name"/>
+                    <input type="text" placeholder="Enter your Name" className="w-[100%] border border-black"/>
                     <br />
                     <br />
                     <label htmlFor="email">Email</label>
                     <br />
-                    <input type="email" placeholder="Enter your Email"/>
+                    <input type="email" placeholder="Enter your Email" className="w-[100%] border border-black"/>
                     <br />
                     <br />
                     <label htmlFor="message">Message</label>
                     <br />
-                    <textarea name="message" id="message" placeholder="Your Message" rows="4"></textarea>
+                    <textarea name="message" id="message" placeholder="Your Message" className="w-[100%] border border-black"></textarea>
                     <br />
                     <br />
                     <button type="submit" className="submit">submit</button>
