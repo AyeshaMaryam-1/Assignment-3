@@ -74,11 +74,11 @@ p.text-box{
   text-decoration: underline;
 }
 .submit{
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 5px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 3px;
 }
 .contact{
@@ -86,8 +86,8 @@ p.text-box{
   justify-content: space-between;
 }
 .form{
-  color: white; 
-  background-color: black;
+  color: black; 
+  background-color: rgb(204, 203, 203);
   margin-top: 60px;
   margin-bottom: 60px;
   margin-left: 200px;
@@ -95,6 +95,7 @@ p.text-box{
   height: 470px;
   width: 345px;
   border-radius: 10px;
+  border: 2px solid black;
   padding: 40px;
   padding-top: 25px;
 }
